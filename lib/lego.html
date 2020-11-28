@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lego| Preethi's component library for personal portfolio website</title>
+    <link href="\style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/42c7daffbc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Lego- A component library for personal portfolio website</h1>
+    <p>This is a way to break down a given UX design into modular and self-sustaining components that can be reused across various platforms/sites to maintain one's personal theme/brand consistently. This approach to web development was taught by Tanay Pratap at neog bootcamp. Some industry examples of component libraries are Google's Material Design and Microsoft's Fluent Design.</p>
+    <hr>
+
+    <h2>@Typography</h2>
+    <h1>This is the biggest heading.</h1>
+    <h2>This is the second biggest heading.</h2>
+    <p>Normal text will look like this.</p>
+    <small>Even smaller text will look like this. Typically used for blog publish dates.</small>
+    <hr>
+
+    <h2>@Containers</h2>
+    <h3>Fluid container</h3>
+    <div class="container">This will be a container for other components. It will span across the width of the page but with some margin.</div>
+    <h3>Centre container</h3>
+    <div class=" container container-center">This will be a container for other components and will have centred contents. It will run across the page up to a specified width. </div>
+    <hr>
+
+    <h2>@Links</h2>
+    <a href="/" class="link link-primary" target="_blank">Primary Link</a>
+    <a href="/" class="link link-secondary" target="_blank">Secondary Link</a>
+    <hr>
+
+    <h2>@Lists</h2>
+    <h3>Unordered List</h3>
+    <ul class="list-non-bullet">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <h3>Unordered Inline List</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Item One</li>
+        <li class="list-item-inline">Item Two</li>
+        <li class="list-item-inline">Item Three</li>
+    </ul>
+
+    <h3>Reverse Ordered List</h3>
+    <ol reversed>
+        <li>Item Three </li>
+        <li>Item Two</li>
+        <li>Item One</li>
+    </ol>
+    <hr>
+
+    <h2>@Global Navigation</h2>
+    <nav class="navigation container">
+        <div class="nav-brand">Brand Identifier</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a href="/" class="link link-active">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/" class="link">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+        
+    <hr>
+
+    <h2>@Hero banner or Header</h2>
+    <header class="hero">
+        <img src="../images/hero_image.svg" alt="" class="hero-image">
+        <h1 class="hero-heading">Heading h1 inside hero banner</h1>
+        <p class="hero-text">Short text content in header</p>
+    </header>
+    
+    <hr>
+
+    <h2>@Section</h2>
+    <p>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</p>
+    <section>
+        <div class="container container-center">
+            <h1>White section</h1>
+            <p>Section contents will show up here.</p>
+            <a href="/" class="link link-primary">Primary Link</a>
+        </div>
+    </section>
+    <section class="off-white">
+        <div class="container container-center">
+            <h1>Off-White section</h1>
+            <p>Section contents will show up here.</p>
+            <a href="/" class="link link-primary">Primary Link</a>
+        </div>
+    </section>
+    
+    <hr>
+
+    <h2>@Footer</h2>
+    <footer>
+        <div class="footer-heading">Some small heading inside footer</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a href="https://github.com/preethiganeshan-dev" target="_blank"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="list-item-inline">
+                <a href="https://www.linkedin.com/in/gpreethi/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
